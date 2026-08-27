@@ -1,6 +1,4 @@
-### 📄 `README.md` (para `pulsobot`)
 
-```markdown
 # Telegram to X (Twitter) Bot
 
 A Python bot that listens to a specific Telegram channel and automatically reposts messages (text, photos, or videos) to an X (Twitter) account using OAuth.
@@ -81,7 +79,7 @@ The bot reads the following environment variables:
 ## How It Works
 
 1. **Telegram Listener:** The bot uses `python-telegram-bot` to listen for new messages in the specified channel.
-2. **Media Handling:** If the message contains a photo or video, it downloads the media temporarily.
+2. **Media Handling:** If the message contains a photo or video, it downloads the media temporarily, so you can share a video or image or message of telegram in your X inmmediatly.
 3. **Twitter Posting:** It uses `tweepy` to upload media (if any) and post the message as a tweet.
 4. **Rate Limit Control:** It tracks the number of requests made in the last 24 hours and stops if the limit is reached.
 
