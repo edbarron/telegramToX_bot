@@ -1,0 +1,31 @@
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.production
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Log files
+*.log
+logs/
+
+# Auto-generated files
+contador.json
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
