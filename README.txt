@@ -1,7 +1,3 @@
-¡Perfecto! Aquí tienes el **README.md** en inglés y el **.gitignore** para tu proyecto **Telegram to X Bot** (PulsoBot).  
-
----
-
 ### 📄 `README.md` (para `pulsobot`)
 
 ```markdown
@@ -110,5 +106,3 @@ This project is open-source. Modify and expand it as needed.
 
 **Connect with me:** [PxlCode Studio](https://pxlcode.xyz) | [GitHub](https://github.com/edbarron)
 ```
-
----
